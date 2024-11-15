@@ -7,7 +7,7 @@ int main()
     int sum=0;
     for(int i=0;i<s;i++);
     {
-        sum=sum[arr]i;
+        sum=sum+arr[i];
     }
     cout<<sum;
 
