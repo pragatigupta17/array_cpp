@@ -18,9 +18,9 @@ int main()
                 if(arr[i]>max2 && arr[i]!=max1)
         {
 
-            max2=arr[i]
+            max2=arr[i];
         }
     }
-cout<<"maxvalue="second"<<"\t";
+cout<<"maxvalue="<<max2<<"\t";
 
     }
