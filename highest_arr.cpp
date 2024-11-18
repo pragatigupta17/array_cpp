@@ -1,4 +1,4 @@
-// wap to find the second highest value 
+// wap to find the second highest value
 #include<iostream>
 using namespace std;
 int main()
@@ -14,7 +14,7 @@ int main()
             max2=max1;
             max1=arr[i];
         }
-        else
+        else:
                 if(arr[i]>max2 && arr[i]!=max1)
         {
 

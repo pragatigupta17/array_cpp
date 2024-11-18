@@ -13,7 +13,7 @@ int main()
     {
         cout<<arr[i]<<"\t";
     }
-    cout<<"\noutput are:\n";
+    cout<<"\n output are:\n";
     for(int i=0;i<len;i++){
         if(arr[i]!=0)
         {
