@@ -15,7 +15,14 @@ for(int i=0;i<r;i++)
 {
 for(int j=0;j<c;j++)
 {
+    cin>>arr[i][j];
+}
+}
+
+
 cout<<"\n array like\n";
+
+
 for(int i=0;i<r;i++)
 {
 for(int j=0;j<c;j++)
@@ -24,7 +31,12 @@ cout<<arr[i][j]<<"\t";
 }
 cout<<"\n";
 }
+
+
+
 cout<<"\n transpose matrix is \n";
+
+
 for(int i=0;i<r;i++)
 {
 for(int j=i+1;j<c;j++)
@@ -35,6 +47,9 @@ arr[i][j]=arr[j][i];
 arr[j][i]=tmp;
 }
 }
+
+
+
 for(int i=0;i<r;i++)
 {
 for(int j=0;j<c;j++)
@@ -43,6 +58,9 @@ cout<<arr[i][j]<<"\t";
 }
 cout<<"\n";
 }
+
+
+
 }
 else
 {
